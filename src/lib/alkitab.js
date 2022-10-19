@@ -9,11 +9,12 @@ export const alkitab = async (verse) => {
 
     let content = $('div:nth-child(5) .style1')
         .map((i, el) => {
-            return $(el).text();
+            let text = $(el).text();
+            let firstAlphabetical = (text.match(/[a-zA-Z]/) || []).pop();
+            text = text.substring(text.indexOf(firstAlphabetical), text.length + 1);
+
+            return text;
         }).toArray().join(' ');
 
-    let firstAlphabetical = (content.match(/[a-zA-Z]/) || []).pop();
-    content = content.substring(content.indexOf(firstAlphabetical), content.length);
-    
     return { verse, content };
 }
