@@ -1,5 +1,5 @@
 import axios from "axios";
-import * as cheerio from 'cheerio';
+import * as cheerio from "cheerio";
 
 export const randomVerse = async () => {
   let url = "https://dailyverses.net/random-bible-verse";
