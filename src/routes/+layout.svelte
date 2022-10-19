@@ -15,6 +15,6 @@
 	</a>
 </div>
 
-<main class="grid h-screen place-items-center p-10" on:click={refresh}  on:keypress={refresh}>
+<main class="grid h-screen place-items-center" on:click={refresh}  on:keypress={refresh}>
 <slot />
 </main>

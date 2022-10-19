@@ -7,7 +7,7 @@
     </a>
 </div>
 
-<div class="w-full text-center text-gray-300">
+<div class="w-full text-center text-gray-300 p-10">
     <div class="border-b border-gray-500 pb-4 mb-4 font-bold text-2xl">Ayat Alkitab Acak</div>
 
     <div class="mb-3">
