@@ -1,3 +1,3 @@
 # Ayat Alkitab Acak
 
-Menampilkan ayat aktibat secara acak.
+Menampilkan ayat Alkitab secara acak.
