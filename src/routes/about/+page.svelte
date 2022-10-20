@@ -8,7 +8,7 @@
 </div>
 
 <div class="w-full lg:w-2/3 text-center text-gray-300 p-10">
-    <div class="border-b border-gray-500 pb-4 mb-4 font-bold text-2xl">Ayat Alkitab Acak</div>
+    <div class="border-b border-gray-500 pb-4 mb-4 font-bold text-2xl">Ayat Acak Alkitab</div>
 
     <div class="mb-3">
         <a href="/">ayatacak.vercel.app</a>

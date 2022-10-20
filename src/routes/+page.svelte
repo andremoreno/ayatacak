@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-    <title>Ayat Alkitab Acak</title>
+    <title>Ayat Acak Alkitab</title>
 </svelte:head>
 
 <div class="verse w-full lg:w-2/3 text-center p-10 pb-20">
