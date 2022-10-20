@@ -25,16 +25,7 @@
         and Conditions, which is accessible at https://ayatacak.vercel.app/, unless
         otherwise defined in this Privacy Policy.
     </p>
-
-    <h4 class="text-lg mb-3">Information Collection and Use</h4>
-
-    <p class="mb-3">
-        For a better experience while using our Service, we may require you to
-        provide us with certain personally identifiable information, including but
-        not limited to your name, phone number, and postal address. The information
-        that we collect will be used to contact or identify you.
-    </p>
-
+    
     <h4 class="text-lg mb-3">Contact Us</h4>
 
     <p class="mb-3">
