@@ -17,6 +17,12 @@
         Scraped from DAILYVERSES.NET and ALKITAB.MOBI.
     </div>
 
+    <div class="flex justify-center mb-20">
+        <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak">
+            <img src="/playstore.png" alt="Play Store">
+        </a>
+    </div>
+
     <div class="inline-flex gap-3 text-sm text-zinc-400">
         <a href="/privacy">Privasi</a>
         <a href="https://trakteer.id/ronaldnababan/tip?quantity=1" target="_blank" rel="noreferrer">Donasi</a>
