@@ -27,4 +27,4 @@
     </p>
 </div>
 
-<Footer><a href="https://ronsen.github.io/">Built with &hearts; by Ronald Nababan</a></Footer>
+<Footer><a href="https://s.id/ronsen">Built with &hearts; by Ronald Nababan</a></Footer>
