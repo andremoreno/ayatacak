@@ -1,8 +1,10 @@
 <script>
-	import Info from "../lib/components/info.svelte";
+	import Home from "../lib/components/home.svelte";
+	import About from "../lib/components/about.svelte";
 	import "../app.css";
 </script>
 
-<Info />
+<Home />
+<About />
 
 <slot />

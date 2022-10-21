@@ -1,4 +1,5 @@
 <script>
+    import Footer from '../lib/components/footer.svelte';
     /** @type {import('./$types').PageData} */
     export let data;
 
@@ -22,6 +23,4 @@
     </div>
 </main>
 
-<footer class="fixed left-0 bottom-0 w-full text-center p-2 text-xs bg-zinc-900 text-zinc-500 uppercase font-bold">
-	Ketuk di mana saja untuk mendapatkan ayat yang baru
-</footer>
+<Footer>Ketuk di mana saja untuk mendapatkan ayat yang baru</Footer>

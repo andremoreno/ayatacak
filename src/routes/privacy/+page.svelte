@@ -1,12 +1,10 @@
 <script>
-    import Home from "../../lib/components/home.svelte";
+    import Footer from "../../lib/components/footer.svelte";
 </script>
 
 <svelte:head>
     <title>Kebijakan Privasi</title>
 </svelte:head>
-
-<Home />
 
 <div class="w-full lg:w-2/3 p-10 mx-auto">
     <h3 class="font-bold text-2xl border-b pb-2 mb-2">Kebijakan Privasi</h3>
@@ -28,3 +26,5 @@
         jangan ragu untuk menghubungi kami.
     </p>
 </div>
+
+<Footer><a href="https://ronsen.github.io/">Built with &hearts; by Ronald Nababan</a></Footer>
