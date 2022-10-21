@@ -19,8 +19,10 @@
 
     <div class="inline-flex gap-3 text-sm text-zinc-400">
         <a href="/privacy">Privasi</a>
-        <a href="https://trakteer.id/ronaldnababan/tip?quantity=1">Donasi</a>
+        <a href="https://trakteer.id/ronaldnababan/tip?quantity=1" target="_blank" rel="noreferrer">Donasi</a>
     </div>
 </div>
 
-<Footer><a href="https://ronsen.github.io/">Built with &hearts; by Ronald Nababan</a></Footer>
+<Footer>
+    <a href="https://ronsen.github.io/" target="_blank" rel="noreferrer">Built with &hearts; by Ronald Nababan</a>
+</Footer>
