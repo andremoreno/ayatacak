@@ -30,5 +30,5 @@
 </div>
 
 <Footer>
-    <a href="https://ronsen.github.io/" target="_blank" rel="noreferrer">Built with &hearts; by Ronald Nababan</a>
+    <a href="https://ronsen.github.io/" class="block p-2" target="_blank" rel="noreferrer">Built with &hearts; by Ronald Nababan</a>
 </Footer>

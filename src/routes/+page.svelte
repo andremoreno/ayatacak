@@ -2,17 +2,13 @@
     import Footer from '../lib/components/footer.svelte';
     /** @type {import('./$types').PageData} */
     export let data;
-
-    const refresh = () => {
-        // window.location.href = '/';
-    };
 </script>
 
 <svelte:head>
     <title>Ayat Acak Alkitab</title>
 </svelte:head>
 
-<main class="grid h-screen place-items-center" on:click={refresh} on:keypress={refresh}>
+<main class="grid h-screen place-items-center">
     <div class="verse w-full lg:w-2/3 text-center p-10 pb-20">
         <div class="text-3xl mb-6">{data.verse.content}</div>
         
@@ -24,5 +20,5 @@
 </main>
 
 <Footer>
-    <a href="/?ref={data.random}" class="block">Refresh</a>
+    <a href="/?ref={data.random}" class="p-3 block">Refresh</a>
 </Footer>
