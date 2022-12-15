@@ -20,5 +20,5 @@
 </main>
 
 <Footer>
-    <a href="/?ref={data.random}" class="p-3 block">Refresh</a>
+    <a href="/?ref={data.random}" class="p-4 block">Refresh</a>
 </Footer>
