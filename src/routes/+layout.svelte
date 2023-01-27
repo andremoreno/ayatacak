@@ -1,8 +1,8 @@
 <script>
 	import NProgress from 'nprogress';
 	import { navigating } from '$app/stores';
-	import Home from "../lib/components/home.svelte";
-	import About from "../lib/components/about.svelte";
+	import Home from "$lib/components/home.svelte";
+	import About from "$lib/components/about.svelte";
 	
     import 'nprogress/nprogress.css';
 
