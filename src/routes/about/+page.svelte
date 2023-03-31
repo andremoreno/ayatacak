@@ -17,10 +17,14 @@
         Scraped from DAILYVERSES.NET and ALKITAB.MOBI.
     </div>
 
-    <div class="flex justify-center mb-20">
+    <div class="flex justify-center mb-5">
         <a href="https://play.google.com/store/apps/details?id=xyz.sintaks.ayatacak">
             <img src="/playstore.png" alt="Play Store">
         </a>
+    </div>
+
+    <div class="mb-20">
+        <a href="https://s.id/ayatacakzip" class="underline">Unduh berkas EXE</a>
     </div>
 
     <div class="inline-flex gap-3 text-sm text-zinc-400">
@@ -30,5 +34,5 @@
 </div>
 
 <Footer>
-    <a href="https://ronsen.github.io/" class="block p-2" target="_blank" rel="noreferrer">Built with &hearts; by Ronald Nababan</a>
+    <a href="https://s.id/ronsen" class="block p-3" target="_blank" rel="noreferrer">Built by Ronald Nababan</a>
 </Footer>
