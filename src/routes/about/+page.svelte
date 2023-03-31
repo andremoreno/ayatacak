@@ -24,7 +24,7 @@
     </div>
 
     <div class="mb-20">
-        <a href="https://s.id/ayatacakzip" class="underline">Unduh berkas EXE</a>
+        <a href="https://drive.google.com/file/d/1Gi6lAqtolEMiVd2ylFYc7cS2fekgwZ_2/view?usp=share_link" class="underline">Unduh berkas EXE</a>
     </div>
 
     <div class="inline-flex gap-3 text-sm text-zinc-400">
