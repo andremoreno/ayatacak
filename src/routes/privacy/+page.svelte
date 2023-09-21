@@ -10,7 +10,7 @@
     <h3 class="font-bold text-2xl border-b pb-2 mb-2">Kebijakan Privasi</h3>
 
     <p class="mb-3">
-        Ayat Acak Alkitab mengoperasikan situs https://ayatacak.vercel.app/
+        Ayat Acak Alkitab mengoperasikan situs https://random.hkbprawamangun.com/
         dan aplikasi Ayat Acak Alkitab, yang menyediakan LAYANAN.
     </p>
 
@@ -21,5 +21,5 @@
 </div>
 
 <Footer>
-    <a href="https://s.id/ronsen" class="block p-3" target="_blank" rel="noreferrer">Built by Ronald Nababan</a>
+    <a href="https://s.id/ronsen" class="block p-3" target="_blank" rel="noreferrer">Code by Ronald Nababan</a>
 </Footer>
