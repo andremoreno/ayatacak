@@ -1,0 +1,3 @@
+## 2024-10-12 - Dynamic Import for Code-Splitting Large Dependencies
+**Learning:** SvelteKit bundles static imports for the initial load of a page, even if those dependencies are only used asynchronously or via user interaction (like button clicks). `html2canvas` is a large dependency that was unnecessarily blocking the initial page load time.
+**Action:** When working on SvelteKit components, always identify dependencies used exclusively in event handlers or isolated functions and replace their static imports with dynamic imports (e.g. `await import('module')`). This takes advantage of Vite's code-splitting to generate separate chunks, significantly reducing initial payload size and improving TTI (Time to Interactive).
