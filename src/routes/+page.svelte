@@ -1,6 +1,4 @@
 <script>
-    import html2canvas from 'html2canvas';
-
     /** @type {import('./$types').PageData} */
     export let data;
 
@@ -10,8 +8,13 @@
         location.href = '/';
     };
 
-    const download = () => {
+    const download = async () => {
         const verse = document.querySelector("#verse").innerHTML;
+
+        // ⚡ Bolt: Dynamically import html2canvas to split this large dependency out of the main bundle
+        // This reduces initial load payload significantly as it's only needed for downloading
+        const module = await import('html2canvas');
+        const html2canvas = module.default;
 
         html2canvas(document.querySelector("#passage")).then(canvas => {
             const image = canvas.toDataURL("image/png");
